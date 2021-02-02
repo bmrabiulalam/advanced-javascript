@@ -1,7 +1,7 @@
 // Falsy: false, 0, "", undefined, null, NaN
 // Truthy: arr = [], obj = {} and anything else, even negative numbers (e.g -2, -6, etc) are truthy values
 
-let nameVar = '';
+let nameVar = undefined;
 
 if(nameVar){
     console.log('condition is true');
